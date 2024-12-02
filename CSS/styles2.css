@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e8f5e9; /* Fondo suave y refrescante */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.form-container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 420px; /* Un poco más de ancho */
+    text-align: center;
+}
+
+h2 {
+    color: #2e7d32; /* Un verde fresco para el título */
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 15px;
+    color: #388e3c; /* Verde suave */
+    margin-bottom: 8px;
+    display: block;
+    font-weight: 500;
+}
+
+input, button, select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #81c784; /* Borde sutil de color verde */
+    border-radius: 8px; /* Bordes redondeados */
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #f1f8e9; /* Fondo suave y claro */
+    color: #388e3c;
+}
+
+input:focus, button[type="submit"]:focus {
+    border-color: #66bb6a; /* Cambiar el borde al hacer foco */
+    outline: none;
+}
+
+button[type="submit"] {
+    background-color: #388e3c; /* Verde atractivo */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    font-weight: 600;
+    padding: 14px;
+}
+
+button[type="submit"]:hover {
+    background-color: #2c6b2f; /* Un verde más oscuro al pasar el ratón */
+}
+
+.form-footer {
+    font-size: 14px;
+    color: #388e3c;
+}
+
+.form-footer a {
+    color: #388e3c;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+    color: #66bb6a; /* Verde más suave al hacer hover */
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
